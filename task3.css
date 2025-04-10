@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  color: #333;
+}
+
+header {
+  background-color: modearategreen;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.book-card h3 {
+  margin-top: 0;
+}
+
+.borrow-btn {
+  background-color: #f06292;
+  margin-top: 10px;
+}
+
+.borrow-btn:hover {
+  background-color: #c2185b;
+}
+
+.history {
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #eee;
+  color: #666;
+  font-size: 14px;
+}
